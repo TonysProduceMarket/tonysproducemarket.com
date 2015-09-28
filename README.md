@@ -1,2 +1,5 @@
 # tonysproducemarket.com
-This is the repo used to generate Tony's Produce Market's website
+
+Created using Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
+
+
