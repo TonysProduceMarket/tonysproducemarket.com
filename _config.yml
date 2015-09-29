@@ -23,10 +23,13 @@ permalink: pretty
 
 social:
   - title: google
+    displayname: email
     url: mailto:swaldro@gmail.com
   - title: facebook
+    displayname: facebook
     url: https://facebook.com
   - title: yelp 
+    displayname: yelp
     url: https://www.yelp.com
 
 exclude: [vendor]
