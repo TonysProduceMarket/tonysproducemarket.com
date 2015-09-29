@@ -1,6 +1,7 @@
 ---
 layout: default
 img: phones.png
+img-alt: "phones img-alt test"
 category: Services
 title: Google Web Fonts and<br>Font Awesome Icons
 description: |

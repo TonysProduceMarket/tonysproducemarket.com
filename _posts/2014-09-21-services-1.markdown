@@ -1,6 +1,7 @@
 ---
 layout: default
 img: ipad.png
+img-alt: "ipad alt test"
 category: Services
 title: Death to the Stock Photo:<br>Special Thanks
 description: |

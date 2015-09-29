@@ -1,6 +1,7 @@
 ---
 layout: default
 img: dog.png
+img-alt: "dog img-alt test"
 category: Services
 title: 3D Device Mockups<br>by PSDCovers
 description: |
