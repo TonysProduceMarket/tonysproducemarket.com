@@ -2,4 +2,4 @@
 set -e # halt script on error
 
 bundle exec jekyll build
-bundle exec htmlproof ./_site --href-ignore ./_site/services/*
+bundle exec htmlproof ./_site --url-ignore ./_site/services/*
