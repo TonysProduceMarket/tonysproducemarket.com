@@ -29,3 +29,55 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+
+$(document).ready(function(){/* google maps -----------------------------------------------------*/
+google.maps.event.addDomListener(window, 'load', initialize);
+
+function initialize() {
+
+  /* position Amsterdam */
+  var latlng = new google.maps.LatLng(28.896805,-82.5863789);
+
+  var imageLocation = 'img/carrot1.png';
+
+  var mapOptions = {
+    center: latlng,
+    scrollwheel: false,
+    zoomControl: true,
+    scaleControl: true,
+    zoom: 15,
+  };
+  
+  var marker = new google.maps.Marker({
+    position: latlng,
+    url: '/',
+    icon: imageLocation,
+    animation: google.maps.Animation.BOUNCE
+  });
+  
+  var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+  marker.setMap(map);
+
+
+  var contentString = '<div id="content">'+
+      '<div id="siteNotice">'+
+      '</div>'+
+      '<h3 id="firstHeading" class="firstHeading">Tony&#39s Produce Market</h3>'+
+      '<div id="bodyContent">'+
+      '<p>It&#39s pretty much the best produce market ever. '+
+      'Why don&#39t you stop by and say "Hi!"? :)</p>'+
+      '</div>'+
+      '</div>';
+
+  var infowindow = new google.maps.InfoWindow({
+    content: contentString
+  });
+
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+
+};
+/* end google maps -----------------------------------------------------*/
+});
