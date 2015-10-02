@@ -1,0 +1,12 @@
+---
+layout: default
+img: demo.jpeg
+imgalt: "phones img-alt test"
+category: News
+title: Preparation continues!
+description: Still at work preparing the market for prime time!
+---
+The market is coming together nicely!  This is just a made up text so Lindsey can see what the site looks like without
+all the stock photos. Hooray!
+
+<p>Stay tuned for our announcement of Opening Day! </p>
