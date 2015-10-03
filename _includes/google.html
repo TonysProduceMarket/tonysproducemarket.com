@@ -1,12 +1,35 @@
-<div id="map-button">
-<a href="http://maps.apple.com/?q=454+NE+3rd+St+Crystal+River+FL+34429" class='btn btn-default btn-sm'><i class='fa fa-car'></i><span class='map-button'>Open in maps</span></a>
-</div>
-<div id="map-canvas"></div>
-	<div class="container-fluid" id="main">
-		<div class="row">
-		<div class="col-xs-12" id="left">
-		</div>
-		<div class="col-xs-12"><!--map-canvas will be postioned here--></div>    
-		</div>
-	</div>
-</div>
+
+<section id="info">
+	<div class="container-fluid" id="mapContainer">
+		<div class="row" id="mapRow">
+			<div class="col-xs-12 col-sm-6 col-lg-3">
+				<h3> Market Info </h3>
+				<h4> Hours </h4>
+				<p> Monday-Friday: 9am - 7pm <br>
+				  Saturday: 7am - 3pm <br>
+				  Sunday: Rest </p>
+				<h4>Address:</h4>
+				<p>454 NE 3rd Street <br>
+				  Crystal River, FL 34429 </p>
+				<div id="map-button">
+					<a href="http://maps.apple.com/?q=454+NE+3rd+St+Crystal+River+FL+34429" class='btn btn-default btn-sm'>
+						<i class='fa fa-car'></i>
+						<span class='map-button'>
+							Open in maps
+						</span>
+					</a>
+				</div>
+				<div id="phone-button">
+					<a href="tel:352-257-1812" class='btn btn-default btn-sm'>
+						<i class='fa fa-phone'></i>
+						<span class='phone-button'>
+							(352)-257-1812
+						</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-lg-9 map" id="mapMap">
+			<div id="map-canvas"></div>	
+		</div>	
+	</div><!-- /.container -->
+</section>
