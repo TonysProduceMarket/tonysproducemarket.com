@@ -47,6 +47,7 @@ function initialize() {
     zoomControl: true,
     scaleControl: true,
     zoom: 15,
+    draggable: false,
   };
   
   var marker = new google.maps.Marker({
