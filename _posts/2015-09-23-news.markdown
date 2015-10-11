@@ -1,7 +1,7 @@
 ---
 layout: default
 img: demo.jpeg
-imgalt: "phones img-alt test"
+imgalt: "demolition picture"
 category: News
 title: Preparation continues!
 description: Still at work preparing the market for prime time!
