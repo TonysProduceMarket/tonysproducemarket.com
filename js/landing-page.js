@@ -98,7 +98,7 @@ $(document).ready(function(){
 
     setTimeout(function() {
         $('[data-toggle="popover"]').popover('hide');
-    }, 14000);
+    }, 10000);
 
     $('#splash-button > a').hover(function() {
       $('[data-toggle="popover"]').popover('destroy');
