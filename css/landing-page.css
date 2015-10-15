@@ -258,3 +258,19 @@ section {
     margin-top:  20px;
 }
 */
+
+.popover-content {
+    color: black;
+}
+
+.popover {
+    background-color: rgba(255,255,255,0.5);
+    border-color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.5);
+}
+
+.popover.top > .arrow:after { 
+    border-top-color: rgba(255,255,255,0.25);
+    border-bottom-color: rgba(255,255,255,0.25);
+
+} 

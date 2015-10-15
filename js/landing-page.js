@@ -82,3 +82,26 @@ function initialize() {
 };
 /* end google maps -----------------------------------------------------*/
 });
+
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover({
+      delay: {
+        show: "5200",
+        hide: "100"
+      },
+  }); 
+
+    setTimeout(function() {
+        $('[data-toggle="popover"]').popover('show');
+    }, 5000);
+
+    setTimeout(function() {
+        $('[data-toggle="popover"]').popover('hide');
+    }, 14000);
+
+    $('#splash-button > a').hover(function() {
+      $('[data-toggle="popover"]').popover('destroy');
+    });
+    
+});
