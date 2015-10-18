@@ -100,7 +100,7 @@ $(document).ready(function(){
         $('[data-toggle="popover"]').popover('hide');
     }, 10000);
 
-    $('#splash-button > a').hover(function() {
+    $('#splash-button').hover(function() {
       $('[data-toggle="popover"]').popover('destroy');
     });
     
