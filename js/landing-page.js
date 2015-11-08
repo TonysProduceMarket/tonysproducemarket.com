@@ -94,11 +94,11 @@ $(document).ready(function(){
 
     setTimeout(function() {
         $('[data-toggle="popover"]').popover('show');
-    }, 5000);
+    }, 6000);
 
     setTimeout(function() {
         $('[data-toggle="popover"]').popover('hide');
-    }, 15000);
+    }, 20000);
 
     $('#splash-button').hover(function() {
       $('[data-toggle="popover"]').popover('destroy');
