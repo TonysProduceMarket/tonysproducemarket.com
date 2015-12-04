@@ -4,7 +4,7 @@
 
 url: http://tonysproducemarket.com
 title: Tony's Produce Market
-email: fakegmailaccount@fakegmail.com
+email: tonysproducemarket@gmail.com
 author: Eric Alford
 description: > # "Write an awesome description for your new site here. 
   Tony's Produce Market - A small produce market in Crystal River, FL." 
@@ -24,12 +24,12 @@ permalink: pretty
 social:
   - title: google
     displayname: email
-    url: mailto:fakegmailaccount@fakegmail.coxm
-  - title: facebook
-    displayname: facebook
-    url: https://facebook.com
-  - title: yelp 
-    displayname: yelp
-    url: https://www.yelp.com
+    url: mailto:tonysproducemarket@gmail.com
+#  - title: facebook
+#    displayname: facebook
+#    url: https://facebook.com
+#  - title: yelp 
+#    displayname: yelp
+#    url: https://www.yelp.com
 
 exclude: [vendor]
