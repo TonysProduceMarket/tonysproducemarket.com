@@ -3,7 +3,8 @@ layout: default
 img: shelves.jpg
 imgalt: "picture of shelves"
 category: News
-title: Opening January 2016!
+title: Opening January 7th, 2016!
 description: Still at work preparing the market for prime time!
 ---
-Almost Ready! The market is coming together nicely. We've been working very hard over the past few months to get the market ready for opening day.
+<p>Almost there! The market is coming together nicely. </p>
+<p> We've been working very hard over the past few months to get the market ready for opening day!</p>
