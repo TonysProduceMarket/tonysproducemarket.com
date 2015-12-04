@@ -54,7 +54,7 @@ function initialize() {
     position: latlng,
     url: '/',
     icon: imageLocation,
-    animation: google.maps.Animation.DROP
+    animation: google.maps.Animation.BOUNCE
   });
   
   var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
