@@ -1,0 +1,9 @@
+---
+layout: default
+img: first_day.jpg
+imgalt: "Picture of tomatos and strawberries on a multi-tier shelf"
+category: News
+title: We're Open!!!
+description: THIS IS A DESCRIPTION
+---
+<p>Finally, after many months of preparation, we are open. We will be adding new things every week, hopefully starting with some organics.  If you haven’t already, please stop by and check us out! Check out our <a href="https://plus.google.com/photos/103444307856223802447/albums/6218236462844361201?gmbpt=true&hl=en">Google Business Page</a> for a few pictures of opening day. </p>
